@@ -4,6 +4,7 @@ const configuration = {
     databaseId : String(import.meta.env.VITE_APPWRITE_DATABASE_ID),
     collectionId : String(import.meta.env.VITE_APPWRITE_COLLECTION_ID),
     bucketId: String(import.meta.env.VITE_APPWRITE_BUCKET_ID),
+    gemini: String(import.meta.env.VITE_GEMINI_API_KEY)
 }
 
 export default configuration;
